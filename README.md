@@ -1,4 +1,4 @@
-# Prompter Cihuy — v0.9.2-alpha
+# Prompter Cihuy — v0.9.3-alpha
 
 Teleprompter PWA untuk tablet Android dengan **live sync Google Docs**.
 
@@ -85,7 +85,7 @@ apps-script/    Code.gs
 
 ### Jalur cepat (opsional, disarankan) — Supabase Realtime
 
-Tanpa ini, perintah remote lewat relay Apps Script dengan latensi ± 1,5–3 detik. Dengan Supabase Realtime, latensi turun ke ± 0,1–0,3 detik. Hitung mundur 3-2-1 bisa dinyalakan/dimatikan lewat centang "Hitung mundur" (di tablet & remote, default nyala).
+Tanpa ini, perintah remote lewat relay Apps Script dengan latensi ± 1,5–3 detik. Dengan Supabase Realtime, latensi turun ke ± 0,1–0,3 detik. Hitung mundur 3-2-1 bisa dinyalakan/dimatikan lewat centang "Hitung mundur" (di tablet & remote, default nyala). Overlay 3-2-1 juga muncul di remote, tersinkron dengan tablet.
 
 Setup sekali:
 1. Buat project gratis di [supabase.com](https://supabase.com) (tidak perlu bikin tabel apa pun — fitur Broadcast bersifat ephemeral).
